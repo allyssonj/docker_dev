@@ -50,8 +50,8 @@ services:
     image: bitnami/minio:latest
     container_name: minio
     ports:
-      - '9000:9000'
-      - '9001:9001'
+      - 9000:9000
+      - 9001:9001
     environment:
       MINIO_ROOT_USER: laravel
       MINIO_ROOT_PASSWORD: 12345678
